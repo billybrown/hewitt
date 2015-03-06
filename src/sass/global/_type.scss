@@ -1,0 +1,100 @@
+/////////////////////////////////////-+++-/////////////////////////////////////////
+// Type
+/////////////////////////////////////-+++-/////////////////////////////////////////
+
+
+
+// links
+///////////////////////////////////////////
+
+a,
+.fakeLink {
+	color: $link-color;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+}
+
+
+
+// headers
+///////////////////////////////////////////
+
+
+%header {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.header {
+	@extend %header;
+}
+
+
+
+// h1 - h6 elements
+///////////////////////////////////////////
+
+// copied from normalize
+// Address variable `h1` font-size and margin within `section` and `article`
+// contexts in Firefox 4+, Safari, and Chrome.
+// 
+
+h1 {
+  @extend %header;
+  margin: 0 0 40px;
+  padding-bottom: 40px;
+  position: relative;
+
+  @media (min-width: $bp-teen) {
+	  font-size: 70px;
+	  line-height: 70px;
+  }
+
+  &:after {
+  	content: '';
+  	display: block;
+  	height: 3px;
+  	width: 100px;
+  	background: #444;
+  	position: absolute;
+  	bottom: 0;
+  	left: 50%;
+  	margin-left: -50px;
+  }
+}
+
+h2 {
+	font-style: italic;
+	font-weight: 400;
+	font-size: 35px;
+	color: #aaa;
+	margin: 0;
+	font-family: $serif;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.fadeout {
+  opacity: 0;
+}
+
+
+
+// buttons
+///////////////////////////////////////////
+
+
+
+// quotes
+///////////////////////////////////////////
+
+
+blockquote {
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}

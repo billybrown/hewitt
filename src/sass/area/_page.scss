@@ -1,0 +1,50 @@
+/////////////////////////////////////-+++-/////////////////////////////////////////
+// main page
+/////////////////////////////////////-+++-/////////////////////////////////////////
+
+body, html {
+  @media (min-width: $bp-teen) {
+    height: 100%;
+    position: relative;
+  }
+}
+
+html {
+  padding: 10px;
+}
+
+body {
+  border: 1px solid $gold;
+}
+
+.photo {
+  margin: 0 auto 30px;
+  position: relative;
+  border: 1px solid $gold;
+  padding: 10px;
+  border-radius: 50%;
+  width: 200px + (10px * 2) + 2px;
+  height: 200px + (10px * 2) + 2px;
+}
+
+
+.photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.main {
+  padding: 40px 40px 100px;
+
+  @media (min-width: $bp-teen) {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    margin-top: -70px;
+    width: 100%;
+    padding: 100px;
+  }
+}
+
