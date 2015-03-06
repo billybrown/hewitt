@@ -20,7 +20,8 @@
 					'Lord Commander of the Nights Watch',
 					'Southern Legal Clinics, Intern',
 					'Gym Rompers Participant',
-					'Cheif Tactical Officer, Star Ship Enterprise'
+					'Cheif Tactical Officer, Star Ship Enterprise',
+					'Baby'
 				];
 
 				var spot = $('#position');
