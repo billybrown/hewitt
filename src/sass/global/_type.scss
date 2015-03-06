@@ -45,7 +45,7 @@ a,
 
 h1 {
   @extend %header;
-  margin: 0 0 40px;
+  margin: 0 0 30px;
   padding-bottom: 40px;
   position: relative;
 
@@ -71,6 +71,7 @@ h2 {
 	font-style: italic;
 	font-weight: 400;
 	font-size: 35px;
+  line-height: 45px;
 	color: #aaa;
 	margin: 0;
 	font-family: $serif;
