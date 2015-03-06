@@ -11,6 +11,7 @@
 
 				// show and hide and replace baby positions
 				var babynames = [
+					'First Born',
 					'Cirque du Soleil Aerialist',
 					'Waiter, Commanders Palace',
 					'Mardi Gras Bead Catcher',
