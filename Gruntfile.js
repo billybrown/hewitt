@@ -48,7 +48,8 @@ module.exports = function(grunt) {
     'concat',
     'csso',
     'clean:css',
-    'copy:cname'
+    'copy:cname',
+    'copy:favicons'
   ]);
 
   grunt.registerTask('deploy', ['build', 'gh-pages']);
